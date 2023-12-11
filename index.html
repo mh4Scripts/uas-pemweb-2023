@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ujian Akhir Semester - Mata Kuliah Pemrograman Web</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+
+    <section id="introduction">
+        <h1>Ujian Akhir Semester - Mata Kuliah Pemrograman</h1>
+        <p>
+            UAS Pemrograman Web ini terdiri dari empat bagian yang mencakup berbagai aspek pengembangan sebuah web.
+            Keempat bagian saling berkaitan dan akan bersinergi membentuk sebuah aplikasi web. Berikut adalah panduan untuk ujian ini:
+        </p>
+        <table>
+            <tr>
+                <td><strong>Waktu</strong></td>
+                <td>:</td>
+                <td>Batas waktu pengerjaan <strong>Senin, 18 Desember 2023 Pukul 09.00 WIB</strong></td>
+            </tr>
+            <tr>
+                <td><strong>Pertanyaan</strong></td>
+                <td>:</td>
+                <td>Bacalah setiap pertanyaan dengan teliti dan kerjakan dengan cermat</td>
+            </tr>
+            <tr>
+                <td><strong>Kerja Mandiri</strong></td>
+                <td>:</td>
+                <td>Plagiarisme akan mengakibatkan sanksi nilai E pada akhir perkuliahan</td>
+            </tr>
+            <tr>
+                <td><strong>Penjelasan</strong></td>
+                <td>:</td>
+                <td>Buatlah file `readme.md` untuk menjelaskan setaip bagain kriteria penilaian</td>
+            </tr>
+            <tr>
+                <td><strong>Pengumpulan</strong></td>
+                <td>:</td>
+                <td>Dikumpul pada gform:
+                    <a href="https://forms.gle/ySNmEDPHzc77S4XQA" target="_blank">klik disini</a>
+                </td>
+            </tr>
+        </table>
+        <br />  
+        <hr />
+        <p class="center" id="sub-section">
+            <i>
+                <!-- fixme -->
+            </i>
+        </p>
+    </section>
+
+    <section>
+        <h2>Bagian 1: Client-side Programming (Bobot: 30%)</h2>
+        <p>
+            1.1 (15%) Buatlah sebuah halaman web sederhana yang memanfaatkan JavaScript untuk melakukan manipulasi DOM.
+        </p>
+        <p>
+            Panduan:<br>
+            - Buat form input dengan minimal 4 elemen input (teks, checkbox, radio, dll.)<br>
+            - Menampilkan data yang kedalam sebuah halaman menggunakan tag `table`<br>
+        </p>
+        <p>
+            1.2 (15%) Buatlah beberapa event untuk menghandle interaksi pada halaman web
+        </p>
+        <p>
+            Panduan:<br>
+            - Tambahkan minimal 3 event yang berbeda untuk menghandle form pada 1.1<br>
+            - Implementasikan JavaScript untuk validasi setiap input sebelum diproses oleh PHP<br>
+        </p>
+    </section>
+
+    <section>
+        <h2>Bagian 2: Server-side Programming (Bobot: 30%)</h2>
+        <p>
+            2.1 (20%) Implementasikan script PHP untuk mengelola data dari formulir pada Bagian 1 menggunakan variabel global seperti `$_POST` atau `$_GET`. Tampilkan hasil pengolahan data ke layar.
+        </p>
+        <p>
+            Panduan:<br>
+            - Gunakan metode POST atau GET pada formulir.<br>
+            - Parsing data dari variabel global dan lakukan validasi disisi server<br>
+            - Simpan ke basisdata termasuk jenis browser dan alamat IP pengguna<br>
+        </p>
+        <p>
+            2.2 (10%) Buatlah sebuah objek PHP berbasis OOP yang memiliki minimal dua metode dan gunakan objek tersebut dalam skenario tertentu pada halaman web Anda.
+        </p>
+        <p>
+            Panduan:<br>
+            - Objek yang dibuat harus terkait dengan konteks pengembangan web saat ini.
+        </p>
+    </section>
+
+    <section>
+        <h2>Bagian 3: Database Management (Bobot: 20%)</h2>
+        <p>
+            3.1 (5%) Buatlah sebuah tabel pada database MySQL
+        </p>
+        <p>
+            Panduan:<br>
+            - Lampirkan langkah-langkah dalam membuat basisdata dengan syntax basisdata
+        </p>
+        <p>
+            3.2 (5%) Buatlah konfigurasi koneksi ke database MySQL pada file PHP. Pastikan koneksi berhasil dan dapat diakses.
+        </p>
+        <p>
+            Panduan:<br>
+            - Gunakan konstanta atau variabel untuk menyimpan informasi koneksi (host, username, password, nama database).
+        </p>
+        <p>
+            3.3 (10%) Lakukan manipulasi data pada tabel database dengan menggunakan query SQL. Misalnya, tambah data, ambil data, atau update data.
+        </p>
+        <p>
+            Panduan:<br>
+            - Gunakan query SQL yang sesuai dengan skenario yang diberikan.
+        </p>
+    </section>
+
+    <section>
+        <h2>Bagian 4: State Management (Bobot: 20%)</h2>
+        <p>
+            4.1 (10%) Buatlah skrip PHP yang menggunakan session untuk menyimpan dan mengelola state pengguna. Implementasikan logika yang memanfaatkan session.
+        </p>
+        <p>
+            Panduan:<br>
+            - Gunakan `session_start()` untuk memulai session.<br>
+            - Simpan informasi pengguna ke dalam session.
+        </p>
+        <p>
+            4.2 (10%) Implementasikan pengelolaan state menggunakan cookie dan browser storage pada sisi client menggunakan JavaScript.
+        </p>
+        <p>
+            Panduan:<br>
+            - Buat fungsi-fungsi untuk menetapkan, mendapatkan, dan menghapus cookie.<br>
+            - Gunakan browser storage untuk menyimpan informasi secara lokal.
+        </p>
+    </section>
+    <section>
+        <h2>Bagian Bonus: Hosting Aplikasi Web (Bobot: 20%)</h2>
+        <p>Bagian bonus ini akan memberikan bobot tambahan 20% jika Anda berhasil meng-host aplikasi web yang Anda buat. Jawablah pertanyaan-pertanyaan berikut:</p>
+
+        <ol>
+            <li>(5%) Apa langkah-langkah yang Anda lakukan untuk meng-host aplikasi web Anda?</li>
+            <li>(5%) Pilih penyedia hosting web yang menurut Anda paling cocok untuk aplikasi web Anda. Berikan alasan Anda.</li>
+            <li>(5%) Bagaimana Anda memastikan keamanan aplikasi web yang Anda host?</li>
+            <li>(5%) Jelaskan konfigurasi server yang Anda terapkan untuk mendukung aplikasi web Anda.</li>
+        </ol>
+    </section>
+    <section>
+        <p>
+            <strong>Catatan:</strong><br>
+            - Ujian ini dirancang untuk menguji pemahaman dan keterampilan Anda dalam pengembangan web di sisi klien dan server.<br>
+            - Pertimbangkan untuk memberikan komentar pada kode Anda untuk menjelaskan langkah-langkah atau alasan tertentu.<br>
+            - Pastikan kode Anda bersih, terstruktur, dan mudah dimengerti.
+        </p>
+    </section>
+</body>
+</html>
